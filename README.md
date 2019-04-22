@@ -14,8 +14,8 @@ System dependencies:
 Database:
   * Local users are stored on a local DB, I used Postgresql
   * Public key generation is done through Firebase. The example numbers are much smaller than what should be used in practice, these are just to demo the process.
-    - g = 7  (Small Prime Number)
-    - n = 8139 (This is a 4 bit number, normally you would use a larger 4000 bit number like the one listed below)
+    - g = 2  (Small Prime Number)
+    - n = 13 (This is a small number, normally you would use a larger 4000 bit number like the one listed below)
 
 * Database initialization
 
